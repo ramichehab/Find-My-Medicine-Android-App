@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 public class Dashboard extends AppCompatActivity {
 
@@ -15,18 +16,19 @@ public class Dashboard extends AppCompatActivity {
 
     }
 
-    public void search(){
+
+
+    public void openSearch(View view) {
         Intent intent=new Intent(Dashboard.this,Search.class);
 
         startActivity(intent);
-
     }
 
-    public void blog(){
+    public void openBlog(View view) {
         Intent intent=new Intent(Dashboard.this,Blog.class);
 
         startActivity(intent);
 
-
     }
+
 }
