@@ -45,8 +45,9 @@ public class MainActivity extends AppCompatActivity {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                sendUserToNextActivity();
 
-                perfomLogin();
+                //perfomLogin();
             }
         });
     }
@@ -93,9 +94,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void sendUserToNextActivity() {
-        Intent intent=new Intent(MainActivity.this,Dashboard.class);
-        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);
-        startActivity(intent);
+//        Intent intent=new Intent(MainActivity.this,Dashboard.class);
+//        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);
+//        startActivity(intent);
+
+        Intent intent = new Intent(this,Dashboard.class);
+         startActivity(intent);
     }
 
 
