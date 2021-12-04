@@ -105,7 +105,7 @@ public class SignUp extends AppCompatActivity {
     }
 
     private void sendUserToNextActivity() {
-        Intent intent=new Intent(SignUp.this,MainActivity.class);
+        Intent intent=new Intent(SignUp.this,SetupActivity.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(intent);
     }
