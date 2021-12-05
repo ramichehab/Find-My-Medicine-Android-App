@@ -15,6 +15,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -51,7 +52,9 @@ public class Search extends AppCompatActivity {
     ArrayList<String> medName= new ArrayList<String>();
     ArrayList<String> medUse= new ArrayList<String>();
     ArrayList<String> medWarning= new ArrayList<String>();
+
     ArrayAdapter arrayAdapter;
+    ListView listView;
 
 
     @Override
@@ -61,18 +64,15 @@ public class Search extends AppCompatActivity {
 
         DownloadTask task = new DownloadTask();
 
+
         try {
-
                 String apiURL = "https://find-my-medicine-61d7c-default-rtdb.firebaseio.com/Medicine/1.json";
-
                 task.execute(apiURL);
-
-
         } catch (Exception e) {
             e.printStackTrace();
         }
 
-            ListView listView = (ListView) findViewById(R.id.ls2);
+        listView = (ListView) findViewById(R.id.ls2);
 
             arrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, medName);
 
@@ -127,7 +127,6 @@ public class Search extends AppCompatActivity {
                     reader = new InputStreamReader(in);
                     data=reader.read();
 
-
                     String articleContent="";
 
                     while (data!=-1){
@@ -144,11 +143,8 @@ public class Search extends AppCompatActivity {
                     medUse.add(Use1);
                     medWarning.add(Warning1);
 
-
-
-                    Log.i("test1",Name1+" "+Use1+" "+Warning1+" ");
-                    Log.i("test1",String.valueOf(medUse.size()));
-
+//                    Log.i("test1",Name1+" "+Use1+" "+Warning1+" ");
+//                    Log.i("test1",String.valueOf(medUse.size()));
 
                 }
                 return null;
@@ -156,8 +152,6 @@ public class Search extends AppCompatActivity {
                 e.printStackTrace();
                 return null;
             }
-
-
         }
 
         @Override
@@ -168,6 +162,8 @@ public class Search extends AppCompatActivity {
 
         }
     }
+
+
 }
 
 
