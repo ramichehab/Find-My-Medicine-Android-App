@@ -48,11 +48,9 @@ public class Search extends AppCompatActivity {
 
     FirebaseDatabase database = FirebaseDatabase.getInstance();
     DatabaseReference myRef = database.getReference("Medicine");
-
     ArrayList<String> medName= new ArrayList<String>();
     ArrayList<String> medUse= new ArrayList<String>();
     ArrayList<String> medWarning= new ArrayList<String>();
-
     ArrayAdapter arrayAdapter;
 
 
@@ -62,8 +60,6 @@ public class Search extends AppCompatActivity {
         setContentView(R.layout.activity_search);
 
         DownloadTask task = new DownloadTask();
-
-
 
         try {
 
@@ -75,9 +71,6 @@ public class Search extends AppCompatActivity {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-
-
 
             ListView listView = (ListView) findViewById(R.id.ls2);
 
@@ -94,10 +87,6 @@ public class Search extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-
-
-
 
     }
 
@@ -131,7 +120,7 @@ public class Search extends AppCompatActivity {
                 medWarning.add(Warning);
 
 
-                for(int i=2;i<=2;i++){
+                for(int i=2;i<=20;i++){
                     url=new URL("https://find-my-medicine-61d7c-default-rtdb.firebaseio.com/Medicine/"+i+".json");
                     urlConnection = (HttpURLConnection) url.openConnection();
                     in = urlConnection.getInputStream();
@@ -162,19 +151,6 @@ public class Search extends AppCompatActivity {
 
 
                 }
-
-
-
-
-
-
-
-
-
-
-
-
-
                 return null;
             } catch (Exception e) {
                 e.printStackTrace();

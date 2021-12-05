@@ -103,10 +103,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-//    public void logIn(View view){
-//        Intent intent = new Intent(this,Dashboard.class);
-//        startActivity(intent);
-//    }
     public void signUp(View view){
         Intent intent = new Intent(this,SignUp.class);
         startActivity(intent);

@@ -14,6 +14,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FindMyMedicine2">
         <activity
+            android:name=".BlogPost"
+            android:exported="false" />
+        <activity
             android:name=".MedResult"
             android:exported="false" />
         <activity
