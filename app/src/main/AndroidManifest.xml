@@ -14,6 +14,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FindMyMedicine2">
         <activity
+            android:name=".DisplayMed"
+            android:exported="false" />
+        <activity
             android:name=".BlogPost"
             android:exported="false" />
         <activity
@@ -26,7 +29,7 @@
             android:name=".SetupActivity"
             android:exported="false" />
         <activity
-            android:name=".Blog"
+            android:name=".BlogFeed"
             android:exported="false" />
         <activity
             android:name=".Medicine"

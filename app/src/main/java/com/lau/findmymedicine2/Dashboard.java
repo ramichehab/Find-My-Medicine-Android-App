@@ -25,7 +25,7 @@ public class Dashboard extends AppCompatActivity {
     }
 
     public void openBlog(View view) {
-        Intent intent=new Intent(Dashboard.this,Blog.class);
+        Intent intent=new Intent(Dashboard.this, BlogFeed.class);
 
         startActivity(intent);
 

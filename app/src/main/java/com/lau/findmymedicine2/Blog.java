@@ -1,29 +1,18 @@
 package com.lau.findmymedicine2;
 
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
+public class Blog {
 
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
+    public String medicineName;
+    public String Quantity;
+    public String ContactInfo;
 
-public class Blog extends AppCompatActivity {
-
-
-
-    @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_blog);
-
-
+    public Blog() {
+        // Default constructor required for calls to DataSnapshot.getValue(User.class)
     }
 
-    public void createPost(View view){
-        Intent intent=new Intent(Blog.this,BlogPost.class);
-
-        startActivity(intent);
-
+    public Blog(String medicineName,String Quantity,String ContactInfo) {
+        this.medicineName = medicineName;
+        this.Quantity = Quantity;
+        this.ContactInfo = ContactInfo;
     }
 }
