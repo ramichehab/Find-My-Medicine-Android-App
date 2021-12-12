@@ -7,7 +7,7 @@
     tools:context=".BlogPost">
 
     <EditText
-        android:id="@+id/editTextTextPersonName6"
+        android:id="@+id/txt_contanct"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -21,7 +21,7 @@
         app:layout_constraintVertical_bias="0.599" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName5"
+        android:id="@+id/txt_quantity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -59,7 +59,7 @@
         app:layout_constraintVertical_bias="0.365" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/txt_medName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"

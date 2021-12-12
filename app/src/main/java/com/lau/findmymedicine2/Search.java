@@ -82,8 +82,9 @@ public class Search extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int i, long l) {
-                Intent intent =new Intent(getApplicationContext(),MedResult.class);
-                intent.putExtra("content",medUse.get(i));
+                Intent intent =new Intent(Search.this,MedResult.class);
+                intent.putExtra("use",medUse.get(i));
+                intent.putExtra("warning",medWarning.get(i));
                 startActivity(intent);
             }
         });
