@@ -61,6 +61,7 @@ public class BlogFeed extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int i, long l) {
                 Intent intent =new Intent(BlogFeed.this, DisplayMed.class);
+                intent.putExtra("name",medName.get(i));
                 intent.putExtra("contact",contact.get(i));
                 intent.putExtra("quantity",medQ.get(i));
                 startActivity(intent);

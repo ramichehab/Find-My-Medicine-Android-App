@@ -13,7 +13,7 @@ public class DisplayMed extends AppCompatActivity {
         setContentView(R.layout.activity_display_med);
 
 
-
+        TextView Name=findViewById(R.id.txt_name);
         TextView quantityView=findViewById(R.id.txt_quan);
         TextView contactView=findViewById(R.id.txt_cont);
 
@@ -23,9 +23,11 @@ public class DisplayMed extends AppCompatActivity {
 
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
+            String name = extras.getString("name");
             String contact = extras.getString("contact");
             String quantity=extras.getString("quantity");
 
+            Name.setText(name);
             quantityView.setText(quantity);
             contactView.setText(contact);
 

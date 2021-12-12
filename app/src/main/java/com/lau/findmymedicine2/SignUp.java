@@ -85,7 +85,7 @@ public class SignUp extends AppCompatActivity {
                 public void onComplete(@NonNull Task<AuthResult> task) {
                     if (task.isSuccessful()){
                         progressDialog.dismiss();
-                        sendUserToNextActivity();
+
 
                         Toast.makeText(SignUp.this, "Registration Successful", Toast.LENGTH_SHORT).show();
 
@@ -104,9 +104,5 @@ public class SignUp extends AppCompatActivity {
 
     }
 
-    private void sendUserToNextActivity() {
-        Intent intent=new Intent(SignUp.this,SetupActivity.class);
-        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);
-        startActivity(intent);
-    }
+
 }

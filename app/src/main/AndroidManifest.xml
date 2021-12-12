@@ -26,9 +26,6 @@
             android:name=".Search"
             android:exported="false" />
         <activity
-            android:name=".SetupActivity"
-            android:exported="false" />
-        <activity
             android:name=".BlogFeed"
             android:exported="false" />
         <activity

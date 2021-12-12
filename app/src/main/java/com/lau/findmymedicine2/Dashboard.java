@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
 public class Dashboard extends AppCompatActivity {
 
@@ -13,9 +14,23 @@ public class Dashboard extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
 
+        Button btn=findViewById(R.id.btn_logout);
+
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                LogOut();
+            }
+        });
+
 
     }
 
+    private void LogOut() {
+        Intent intent=new Intent(Dashboard.this,MainActivity.class);
+
+        startActivity(intent);
+    }
 
 
     public void openSearch(View view) {
