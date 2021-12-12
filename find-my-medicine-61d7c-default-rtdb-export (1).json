@@ -1,0 +1,88 @@
+{
+  "Blog" : [ {
+    "ContactInfo" : 70644548,
+    "Quantity" : 3,
+    "medicineName" : "Panadol"
+  } ],
+  "Medicine" : [ null, {
+    "Name" : "Acetaminophen",
+    "Use" : "Acetaminophen is a pain reliever and a fever reducer",
+    "Warning" : "You should not use this medication if you have severe liver disease."
+  }, {
+    "Name" : "Adderall ",
+    "Use" : "Adderall is used to treat attention deficit hyperactivity disorder (ADHD) and narcolepsy.",
+    "Warning" : "Adderall may be habit-forming, and this medicine is a drug of abuse. Tell your doctor if you have had problems with drug or alcohol abuse."
+  }, {
+    "Name" : "Amitriptyline",
+    "Use" : "Amitriptyline is a prescription medicine used to treat symptoms of depression.",
+    "Warning" : "You should not use amitriptyline if you have recently had a heart attack."
+  }, {
+    "Name" : "Amlodipine",
+    "Use" : "Amlodipine is used to treat chest pain (angina) and other conditions caused by coronary artery disease.",
+    "Warning" : "Before taking amlodipine, tell your doctor if you have congestive heart failure or liver disease"
+  }, {
+    "Name" : "Amoxicillin",
+    "Use" : "Amoxicillin is used to treat many different types of infection caused by bacteria, such as tonsillitis, bronchitis, pneumonia, and infections of the ear, nose, throat, skin, or urinary tract.",
+    "Warning" : "Do not use this medication if you are allergic to amoxicillin or to any other penicillin antibiotic, such as ampicillin (Omnipen, Principen), dicloxacillin (Dycill, Dynapen), oxacillin (Bactocill), penicillin (Beepen-VK, Ledercillin VK, Pen-V, Pen-Vee K, Pfizerpen, V-Cillin K, Veetids), and others."
+  }, {
+    "Name" : "Ativan",
+    "Use" : "Ativan is a prescription medicine used to treat anxiety disorders.",
+    "Warning" : "Ativan can slow or stop your breathing, especially if you have recently used an opioid medication, alcohol, or other drugs that can slow your breathing."
+  }, {
+    "Name" : "Atorvastatin",
+    "Use" : "Atorvastatin is used together with diet to lower blood levels of \"bad\" cholesterol (low-density lipoprotein, or LDL), to increase levels of \"good\" cholesterol (high-density lipoprotein, or HDL), and to lower triglycerides (a type of fat in the blood).",
+    "Warning" : "You should not take atorvastatin if you are pregnant or breastfeeding, or if you have liver disease."
+  }, {
+    "Name" : "Azithromycin ",
+    "Use" : "Azithromycin is used to treat many different types of infections caused by bacteria, such as respiratory infections, skin infections, ear infections, eye infections, and sexually transmitted diseases.",
+    "Warning" : "You should not use azithromycin if you have ever had jaundice or liver problems when you have previously taken this medicine."
+  }, {
+    "Name" : "Benzonatate ",
+    "Use" : "Benzonatate is used to relieve coughing.",
+    "Warning" : "You should not use this medication if you are allergic to benzonatate or topical numbing medicines such as tetracaine or procaine (found in some insect bite and sunburn creams)."
+  }, {
+    "Name" : "Brilinta ",
+    "Use" : "Brilinta is used to lower your risk of heart attack, stroke, or death due to a blocked artery or a prior heart attack.",
+    "Warning" : "You should not use Brilinta if you have any active bleeding (including a bleeding stomach ulcer), or a history of bleeding in the brain. Do not use this medicine just before heart bypass surgery (coronary artery bypass graft, or CABG)."
+  }, {
+    "Name" : "Bunavail",
+    "Use" : "Bunavail buccal films are used to treat opioid addiction.",
+    "Warning" : "Using Bunavail during pregnancy may cause life-threatening withdrawal symptoms in the newborn."
+  }, {
+    "Name" : "Buprenorphine ",
+    "Use" : "Buprenorphine is an opioid medication.",
+    "Warning" : "Buprenorphine sublingual tablets are not for use as a pain medication."
+  }, {
+    "Name" : "Cephalexin ",
+    "Use" : "Cephalexin is used to treat infections caused by bacteria, including upper respiratory infections, ear infections, skin infections, urinary tract infections and bone infections.",
+    "Warning" : "You should not use this medicine if you are allergic to cephalexin or to similar antibiotics, such as Ceftin, Cefzil, Omnicef, and others. Tell your doctor if you are allergic to any drugs, especially penicillins or other antibiotics."
+  }, {
+    "Name" : "Ciprofloxacin ",
+    "Use" : "Ciprofloxacin is a fluoroquinolone (flor-o-KWIN-o-lone) antibiotic, it is used to treat different types of bacterial infections. It is also used to treat people who have been exposed to anthrax or certain types of plague. Ciprofloxacin extended-release is only approved for use in adults.",
+    "Warning" : "Ciprofloxacin can cause serious side effects, including tendon problems, nerve damage, serious mood or behavior changes, or low blood sugar."
+  }, {
+    "Name" : "Citalopram ",
+    "Use" : "Citalopram is a prescription medicine used to treat depression.",
+    "Warning" : "Citalopram can cause a serious heart problem. Call your doctor right away if you have chest pain, fast or pounding heartbeats, shortness of breath, and sudden dizziness."
+  }, {
+    "Name" : "Clindamycin ",
+    "Use" : "Clindamycin is used to treat serious infections caused by bacteria.",
+    "Warning" : "Clindamycin can cause diarrhea, which may be severe or lead to serious, life-threatening intestinal problems. If you have diarrhea that is watery or bloody, stop using this medicine and call your doctor."
+  }, {
+    "Name" : "Clonazepam ",
+    "Use" : "Clonazepam is used to treat certain seizure disorders (including absence seizures or Lennox-Gastaut syndrome) in adults and children.",
+    "Warning" : "Clonazepam can slow or stop your breathing, especially if you have recently used an opioid medication, alcohol, or other drugs that can slow your breathing."
+  }, {
+    "Name" : "Cyclobenzaprine ",
+    "Use" : "Cyclobenzaprine is a muscle relaxant. It works by blocking nerve impulses (or pain sensations) that are sent to your brain.",
+    "Warning" : "You should not use cyclobenzaprine if you have an allergy to the medication, a certain type of thyroid disorder (hyperthyroidism), heart block, congestive heart failure, a heart rhythm disorder, or you have recently had a heart attack."
+  }, {
+    "Name" : "Cymbalta ",
+    "Use" : "Cymbalta is used to treat major depressive disorder in adults. It is also used to treat general anxiety disorder in adults and children who are at least 7 years old.",
+    "Warning" : "Do not take Cymbalta within 5 days before or 14 days after you have used a MAO inhibitor, such as isocarboxazid, linezolid, phenelzine, rasagiline, selegiline, or tranylcypromine, or methylene blue injection."
+  }, {
+    "Name" : "Doxycycline ",
+    "Use" : "Doxycycline is also used to treat blemishes, bumps, and acne-like lesions caused by rosacea. It will not treat facial redness caused by rosacea.",
+    "Warning" : "You should not take doxycycline if you are allergic to any tetracycline antibiotic."
+  } ]
+}
